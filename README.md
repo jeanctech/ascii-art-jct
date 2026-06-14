@@ -1,6 +1,6 @@
-# > assembler-guide.sh 🚀
+# > Ascii-art-jct.sh 🚀
 
-> Learn ASSEMBLER as if you were in the terminal.
+> Learn Ascii-art as if you were in the terminal.
 > No frameworks, no black magic — just pure code.
 > `echo "Let's go nerd mode 🧠"`
 
@@ -39,10 +39,10 @@
 
 ## 🔗 ./resources
 
-* [ASSEMBLER Official](/)
+* [Ascii-art Official](/)
 * [Manual in Spanish](/)
-* [30 days of ASSEMBLER](/)
-* [Game to learn ASSEMBLER](/)
+* [30 days of Ascii-art](/)
+* [Game to learn Ascii-art](/)
 * [Visual Studio Code](/)
 * [Tool-1](/)
 * [Tool-2](/)
@@ -54,7 +54,7 @@ This repository is like my learning journal.
 
 I'm not an expert. It's not an official course. I just documented what I learned.
 
-I might add more in the future if I get even more advanced with ASSEMBLER.
+I might add more in the future if I get even more advanced with Ascii-art.
 
 ## 🌟 ./support
 
