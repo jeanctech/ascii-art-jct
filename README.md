@@ -1,6 +1,6 @@
 # > Ascii-art-jct.sh 🚀
 
-> Learn Ascii-art as if you were in the terminal.
+> Learn Ascii as if you were in the terminal.
 > No frameworks, no black magic — just pure code.
 > `echo "Let's go nerd mode 🧠"`
 
@@ -39,10 +39,10 @@
 
 ## 🔗 ./resources
 
-* [Ascii-art Official](/)
+* [Ascii Official](/)
 * [Manual in Spanish](/)
-* [30 days of Ascii-art](/)
-* [Game to learn Ascii-art](/)
+* [30 days of Ascii](/)
+* [Game to learn Ascii](/)
 * [Visual Studio Code](/)
 * [Tool-1](/)
 * [Tool-2](/)
@@ -54,7 +54,7 @@ This repository is like my learning journal.
 
 I'm not an expert. It's not an official course. I just documented what I learned.
 
-I might add more in the future if I get even more advanced with Ascii-art.
+I might add more in the future if I get even more advanced with Ascii.
 
 ## 🌟 ./support
 
