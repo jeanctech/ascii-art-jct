@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ascii-jct</title>
+  </head>
+  <body>
+    <h1>⚡ ASCII ART</h1>
+    <div class="sub">— escribe, transforma, copia —</div>
+
+    <div class="app-container">
+      <!-- Panel izquierdo: entrada + estilos -->
+      <div class="control-panel">
+        <h2>✏️ Editor</h2>
+
+        <div class="input-group">
+          <label for="textInput">Tu texto</label>
+          <textarea
+            id="textInput"
+            placeholder="Escribe algo...&#10;ej: Hola mundo"
+          >
+Hola ASCII</textarea
+          >
+        </div>
+
+        <div class="input-group">
+          <label>Estilo de arte</label>
+          <div class="style-options">
+            <button class="style-btn active" data-style="standard">
+              Standard
+            </button>
+            <button class="style-btn" data-style="block">Bloque</button>
+            <button class="style-btn" data-style="mirror">Espejo</button>
+            <button class="style-btn" data-style="dots">Puntos</button>
+          </div>
+        </div>
+
+        <button class="action-btn" id="generateBtn">🎨 Generar ASCII</button>
+        <button class="action-btn secondary" id="clearBtn">🧹 Limpiar</button>
+      </div>
+
+      <!-- Panel derecho: salida -->
+      <div class="display-area">
+        <h2>
+          <span>🖼️ Resultado</span>
+          <button class="copy-btn" id="copyBtn">📋 Copiar</button>
+        </h2>
+        <div id="asciiOutput" class="ascii-output placeholder">
+          Tu arte ASCII aparecerá aquí.
+        </div>
+      </div>
+    </div>
+
+    <!-- Galería de ejemplos -->
+    <div class="examples-section">
+      <h3>📌 Ejemplos rápidos</h3>
+      <div class="examples-grid" id="examplesGrid">
+        <span class="example-chip" data-text="Hola mundo">Hola mundo</span>
+        <span class="example-chip" data-text="CSS">CSS</span>
+        <span class="example-chip" data-text="VUE">VUE</span>
+        <span class="example-chip" data-text="ASCII">ASCII</span>
+        <span class="example-chip" data-text="✨ estrellas ✨"
+          >✨ estrellas ✨</span
+        >
+        <span class="example-chip" data-text="2026">2026</span>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
